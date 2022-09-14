@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+}
+
+header {
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8em;
+}
+
+header > button {
+    width: 7em;
+    color: white;
+    background-color: rgb(45, 206, 206);
+    font-weight: bold;
+}
+
+.navbar > ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar > ul > li {
+    margin: 0 10px;
+    color: grey;
+}
+
+.active {
+    color: white !important;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8em;
+}
+
+.content {
+    margin: 2em 0;
+    border: 2px solid lightgrey
+}
+
+.userCard {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2em;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    background-image: linear-gradient(top, rgb(45, 206, 206), rgb(45, 206, 206) 25%, transparent 25%, transparent 100%);
+    background-image: -webkit-linear-gradient(top, rgb(45, 206, 206), rgb(45, 206, 206) 25%, transparent 25%, transparent 100%) 
+}
+
+.userCard > span {
+    display: flex;
+    align-items: center;
+}
+
+.userCard > span > img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.userCard > img {
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid lightgrey;
+}
+
+.education > .boxContent {
+    padding: 0 2em;
+}
+
+.col1 {
+    flex: 3;
+    margin-right: 1em;
+}
+
+.col2 {
+    flex: 2;
+    margin-left: 1em;
+}
+
+.boxHeader {
+    display: flex;
+    justify-content: flex-start;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.boxHeader > span, .boxHeader > p {
+    margin-left: 2em;
+    align-self: center;
+}
+
+.alert {
+    padding: 5px 10px;
+    border-radius: 50%;
+    background: grey;
+}
+.row {
+    display: flex;
+    padding: 0 1em;
+}
+
+.connReq > .boxContent > .row {
+    justify-content: space-between;
+}
+
+.connections > .boxContent > .row {
+    justify-content: flex-start;
+}
+
+.connections > p {
+    margin-left: 2em;
+}
+
+.connections > p, .editProfile > p {
+    color: royalblue;
+    text-decoration: underline;
+}
+
+.row > span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.row > span > img {
+    width: 2em;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+hr { border: 1px solid lightgrey}
+
+.fade {
+    color: grey;
+}
